@@ -1,8 +1,6 @@
-function isPalindrome(word) {
-  if([...word].toString().toLowerCase() === 
-  [...word].reverse().toString().toLowerCase())
-    return true
-  return false
+function isPalindrome(word){
+  return [...word].toString().toLowerCase() === 
+         [...word].reverse().toString().toLowerCase()
 }
 
 // You can run `node index.js` to view these console logs
