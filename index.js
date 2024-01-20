@@ -1,9 +1,6 @@
 function isPalindrome(word) {
-  // Write your algorithm here
-  let pal = true
-  let wordBox = [...word]
-  if(wordBox.toString().toLowerCase() === 
-  wordBox.reverse().toString().toLowerCase())
+  if([...word].toString().toLowerCase() === 
+  [...word].reverse().toString().toLowerCase())
     return true
   return false
 }
